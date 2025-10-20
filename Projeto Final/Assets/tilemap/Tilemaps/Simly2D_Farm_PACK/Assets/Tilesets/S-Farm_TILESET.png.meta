@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 2394abbf5e023a542a29886e115b8165
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1198394301648086514
+    second: S-Farm_TILESET_0
+  - first:
+      213: -5378132077800416152
+    second: S-Farm_TILESET_1
+  - first:
+      213: -2736013427466483377
+    second: S-Farm_TILESET_2
+  - first:
+      213: -3795843583494541798
+    second: S-Farm_TILESET_3
+  - first:
+      213: 9159938776168894037
+    second: S-Farm_TILESET_4
+  - first:
+      213: -7078278835955202519
+    second: S-Farm_TILESET_5
+  - first:
+      213: 754695898063640328
+    second: S-Farm_TILESET_6
+  - first:
+      213: 7089970345607274988
+    second: S-Farm_TILESET_7
+  - first:
+      213: 2902556007538517315
+    second: S-Farm_TILESET_8
+  - first:
+      213: 6784488776894693607
+    second: S-Farm_TILESET_9
+  - first:
+      213: -5459818400173843213
+    second: S-Farm_TILESET_10
+  - first:
+      213: -4398065905942329424
+    second: S-Farm_TILESET_11
+  - first:
+      213: 7410867083939523392
+    second: S-Farm_TILESET_12
+  - first:
+      213: 7045775486286893040
+    second: S-Farm_TILESET_13
+  - first:
+      213: 1994367585444736475
+    second: S-Farm_TILESET_14
+  - first:
+      213: 4996037139821241911
+    second: S-Farm_TILESET_15
+  - first:
+      213: 6466507115349624855
+    second: S-Farm_TILESET_16
+  - first:
+      213: 7334835711536749120
+    second: S-Farm_TILESET_17
+  - first:
+      213: 4082582820710725630
+    second: S-Farm_TILESET_18
+  - first:
+      213: -7741025012098990582
+    second: S-Farm_TILESET_19
+  - first:
+      213: 7557347144103764970
+    second: S-Farm_TILESET_20
+  - first:
+      213: -5925467321653517175
+    second: S-Farm_TILESET_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: S-Farm_TILESET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ad9656bb27e5fe0800000000000000
+      internalID: -1198394301648086514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c929bae590d55b0800000000000000
+      internalID: -5378132077800416152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 73
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f494923a84ab70ad0800000000000000
+      internalID: -2736013427466483377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 47
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eacde3f54725bc0800000000000000
+      internalID: -3795843583494541798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 47
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e8fd519c3ae1f70800000000000000
+      internalID: 9159938776168894037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92689b9a6e6e4cd90800000000000000
+      internalID: -7078278835955202519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 64
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8071785bbe7397a00800000000000000
+      internalID: 754695898063640328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 48
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1a9fd0772a46260800000000000000
+      internalID: 7089970345607274988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345620a7f43f74820800000000000000
+      internalID: 2902556007538517315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0ce69c898572e50800000000000000
+      internalID: 6784488776894693607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc1f77a714da34b0800000000000000
+      internalID: -5459818400173843213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 41
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b70d894c5ee6f2c0800000000000000
+      internalID: -4398065905942329424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 42
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ba9df2950b8d660800000000000000
+      internalID: 7410867083939523392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 48
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff0943897f97c160800000000000000
+      internalID: 7045775486286893040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 42
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddacf990ca6dab10800000000000000
+      internalID: 1994367585444736475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73624bbfe4d755540800000000000000
+      internalID: 4996037139821241911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 16
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71843fbd5f5adb950800000000000000
+      internalID: 6466507115349624855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 5
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a5fffc7329ac560800000000000000
+      internalID: 7334835711536749120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7339ae17f38a830800000000000000
+      internalID: 4082582820710725630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0efc64e3ca529490800000000000000
+      internalID: -7741025012098990582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_20
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae32e90ef2711e860800000000000000
+      internalID: 7557347144103764970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S-Farm_TILESET_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 7
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98428ac8dd284cda0800000000000000
+      internalID: -5925467321653517175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
