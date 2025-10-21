@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      father_sprite_sheet_0: 6174698031262308840
+      father_sprite_sheet_1: -1851257392923783117
+      father_sprite_sheet_10: -1298772805317027918
+      father_sprite_sheet_11: 9208663388416862175
+      father_sprite_sheet_12: -5357863795730952630
+      father_sprite_sheet_13: 6058634209307856565
+      father_sprite_sheet_14: 1399868534480464985
+      father_sprite_sheet_15: 3361111160214502863
+      father_sprite_sheet_16: -339747145868934357
+      father_sprite_sheet_17: -397214739054141274
+      father_sprite_sheet_18: 2885529385105475450
+      father_sprite_sheet_19: -4986912906145901697
+      father_sprite_sheet_2: -6118703091691938945
+      father_sprite_sheet_20: -6109166274215718689
+      father_sprite_sheet_21: -7375962356336209097
+      father_sprite_sheet_22: -5965371064226675926
+      father_sprite_sheet_23: 5958971196961313475
+      father_sprite_sheet_3: 5804060212978296607
+      father_sprite_sheet_4: -4777954068114096249
+      father_sprite_sheet_5: 7747246140994977910
+      father_sprite_sheet_6: -1701471741994383569
+      father_sprite_sheet_7: 1089719229744908628
+      father_sprite_sheet_8: 892865651693153054
+      father_sprite_sheet_9: 4993499410034311344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

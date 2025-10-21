@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      farmer_sprite_sheet_0: 9113155594778961798
+      farmer_sprite_sheet_1: 2585804875240456675
+      farmer_sprite_sheet_10: -7151242576866144013
+      farmer_sprite_sheet_11: -8922005069080265222
+      farmer_sprite_sheet_12: 8192012063940027708
+      farmer_sprite_sheet_13: 6460572956737490705
+      farmer_sprite_sheet_14: -6584710614029674386
+      farmer_sprite_sheet_15: -3264070793786675259
+      farmer_sprite_sheet_16: -7218932225069616763
+      farmer_sprite_sheet_17: 1246793703827774998
+      farmer_sprite_sheet_18: 647618767666682215
+      farmer_sprite_sheet_19: -5606775116860701351
+      farmer_sprite_sheet_2: 7639394544674552850
+      farmer_sprite_sheet_20: 3425562554556584413
+      farmer_sprite_sheet_21: 7905704329417614854
+      farmer_sprite_sheet_22: -1899779229558689584
+      farmer_sprite_sheet_23: -7301347274113492778
+      farmer_sprite_sheet_3: -4381595607896152877
+      farmer_sprite_sheet_4: -44961193221597431
+      farmer_sprite_sheet_5: 1082597363342334396
+      farmer_sprite_sheet_6: -2860000075143472266
+      farmer_sprite_sheet_7: -6741987830108827339
+      farmer_sprite_sheet_8: -1309501231658357310
+      farmer_sprite_sheet_9: -49023698841290965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

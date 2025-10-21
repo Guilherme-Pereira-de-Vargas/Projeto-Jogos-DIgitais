@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NightBatAnimated_0: 306690371627401073
+      NightBatAnimated_1: 2238749190186175909
+      NightBatAnimated_2: 7804791090301811727
+      NightBatAnimated_3: 4203215201077108789
+      NightBatAnimated_4: -3315950140189429370
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

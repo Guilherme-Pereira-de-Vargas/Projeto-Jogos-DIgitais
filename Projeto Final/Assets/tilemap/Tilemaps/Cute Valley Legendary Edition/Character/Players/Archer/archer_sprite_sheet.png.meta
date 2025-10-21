@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      archer_sprite_sheet_0: -8596985773842972347
+      archer_sprite_sheet_1: 6426007381230233155
+      archer_sprite_sheet_10: -5190090754482251365
+      archer_sprite_sheet_11: 8886562834485219777
+      archer_sprite_sheet_12: 374340041074320821
+      archer_sprite_sheet_13: -6661716304335882483
+      archer_sprite_sheet_14: 6638027913749849750
+      archer_sprite_sheet_15: 4239870947196995355
+      archer_sprite_sheet_16: 586319913263814348
+      archer_sprite_sheet_17: -4513959346611115963
+      archer_sprite_sheet_18: -5587668503123742311
+      archer_sprite_sheet_19: -7431513300335533934
+      archer_sprite_sheet_2: 6750061747043234168
+      archer_sprite_sheet_20: -123852731604999659
+      archer_sprite_sheet_21: -7402393564000060151
+      archer_sprite_sheet_22: 2689252365698880571
+      archer_sprite_sheet_23: 9142946939539212982
+      archer_sprite_sheet_3: -7982978410176860627
+      archer_sprite_sheet_4: -6633197502190983954
+      archer_sprite_sheet_5: 7581204158986939870
+      archer_sprite_sheet_6: 944231979672214721
+      archer_sprite_sheet_7: -5821123384704116748
+      archer_sprite_sheet_8: 7593075816347757992
+      archer_sprite_sheet_9: -3775159896824367266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

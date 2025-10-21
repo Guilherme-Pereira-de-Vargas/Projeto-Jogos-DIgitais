@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlungerBox_0: -153416665934001270
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

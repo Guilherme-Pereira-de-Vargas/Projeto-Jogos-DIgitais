@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sawed off shotgun_0: -2837773106602321968
+      sawed off shotgun_1: 8098153057018438075
+      sawed off shotgun_2: -3047234661547110510
+      sawed off shotgun_3: -544416660464341221
+      sawed off shotgun_4: -2159844665009033462
+      sawed off shotgun_5: 565623903243381807
+      sawed off shotgun_6: -1830396306855008657
+      sawed off shotgun_7: 6579685026641177016
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

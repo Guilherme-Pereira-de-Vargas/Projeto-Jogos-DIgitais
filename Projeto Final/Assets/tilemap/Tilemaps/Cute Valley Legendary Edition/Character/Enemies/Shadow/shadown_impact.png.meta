@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shadown_impact_0: 8231420398567728517
+      shadown_impact_1: 5570519899478960028
+      shadown_impact_2: -4762902486769166718
+      shadown_impact_3: 1723915434810068778
+      shadown_impact_4: -4095248787376827374
+      shadown_impact_5: 4357097937015219144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

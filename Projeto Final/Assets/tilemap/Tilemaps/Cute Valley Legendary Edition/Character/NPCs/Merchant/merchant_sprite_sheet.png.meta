@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      merchant_sprite_sheet_0: 177106596601784187
+      merchant_sprite_sheet_1: -7612681713853094029
+      merchant_sprite_sheet_10: 5171197632310798759
+      merchant_sprite_sheet_11: 2959154661516662608
+      merchant_sprite_sheet_12: -20428136051963662
+      merchant_sprite_sheet_13: 6022294753181948011
+      merchant_sprite_sheet_14: -660101368575119862
+      merchant_sprite_sheet_15: -6545442396254028456
+      merchant_sprite_sheet_16: -3815564554760422056
+      merchant_sprite_sheet_17: -7897066088928001585
+      merchant_sprite_sheet_18: 5231473010534408641
+      merchant_sprite_sheet_19: -1618196772226576848
+      merchant_sprite_sheet_2: 6194913420749118960
+      merchant_sprite_sheet_20: 6168124807985818060
+      merchant_sprite_sheet_21: 712783741801216963
+      merchant_sprite_sheet_22: -4476271950719674573
+      merchant_sprite_sheet_23: -4068221483987282857
+      merchant_sprite_sheet_3: -489411605198619120
+      merchant_sprite_sheet_4: -3439603866310071533
+      merchant_sprite_sheet_5: -6032678680336636161
+      merchant_sprite_sheet_6: 4520472150605970969
+      merchant_sprite_sheet_7: 19713819063776526
+      merchant_sprite_sheet_8: -4295544715292744925
+      merchant_sprite_sheet_9: -4266175360634467211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cleric_idle_0: -4933021219306850645
+      cleric_idle_1: -7474760462814410340
+      cleric_idle_2: -3118941419095062945
+      cleric_idle_3: -8150753274018137829
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -734,7 +734,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Witch_sprite_sheet_0: 3536835996961410989
+      Witch_sprite_sheet_1: -3255377554166246031
+      Witch_sprite_sheet_10: 3315639235113517651
+      Witch_sprite_sheet_11: 2370494412128648034
+      Witch_sprite_sheet_12: 5054911148559850387
+      Witch_sprite_sheet_13: -3183494660896146817
+      Witch_sprite_sheet_14: 1886022459457851594
+      Witch_sprite_sheet_15: 5534439734346316151
+      Witch_sprite_sheet_16: 3530578769176495636
+      Witch_sprite_sheet_17: 3057401996617935296
+      Witch_sprite_sheet_18: 8957800160001294861
+      Witch_sprite_sheet_19: 2244771946404354780
+      Witch_sprite_sheet_2: -1402579737650244668
+      Witch_sprite_sheet_20: 6615171752854850361
+      Witch_sprite_sheet_21: 2495199748463402570
+      Witch_sprite_sheet_22: -4097213184868860765
+      Witch_sprite_sheet_23: 6725002591900385134
+      Witch_sprite_sheet_24: -1545723254408532902
+      Witch_sprite_sheet_3: 311010904105112680
+      Witch_sprite_sheet_4: 4013666647063802937
+      Witch_sprite_sheet_5: 7554108539228105810
+      Witch_sprite_sheet_6: -5264806109823908937
+      Witch_sprite_sheet_7: 6771064057319722808
+      Witch_sprite_sheet_8: 7433806587401253074
+      Witch_sprite_sheet_9: 5719530714413154083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

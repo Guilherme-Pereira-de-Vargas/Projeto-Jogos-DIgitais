@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MajorChinIdleAnimated_0: 2959066353437480201
+      MajorChinIdleAnimated_1: -7554628165263434554
+      MajorChinIdleAnimated_2: -6202848592881270698
+      MajorChinIdleAnimated_3: -3515038657163890597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

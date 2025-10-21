@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MajorChinExplodingAnimated_0: 5743999851117603969
+      MajorChinExplodingAnimated_1: 7549498512400501808
+      MajorChinExplodingAnimated_2: 2367023268848609614
+      MajorChinExplodingAnimated_3: 3732972032693592482
+      MajorChinExplodingAnimated_4: 77396133417586396
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

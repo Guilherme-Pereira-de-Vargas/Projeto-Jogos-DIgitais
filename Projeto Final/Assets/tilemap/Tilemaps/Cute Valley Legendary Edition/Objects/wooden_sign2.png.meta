@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wooden_sign2_0: 8628229100724063864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

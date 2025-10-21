@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cleric_miracle1_0: -798851984032251456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

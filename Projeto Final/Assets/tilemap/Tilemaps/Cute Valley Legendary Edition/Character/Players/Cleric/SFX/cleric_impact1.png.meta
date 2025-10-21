@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cleric_impact1_0: 2597560131130191889
+      cleric_impact1_1: -7923068237821675745
+      cleric_impact1_2: 4598703548114714887
+      cleric_impact1_3: -4209510730087329847
+      cleric_impact1_4: -8748284247117527583
+      cleric_impact1_5: 3046224809836582054
+      cleric_impact1_6: 8762140077135210126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OutlawIdleAnimated_0: 8294586447106470402
+      OutlawIdleAnimated_1: 4905809421034397701
+      OutlawIdleAnimated_2: 5755454734741538349
+      OutlawIdleAnimated_3: -7517272576449364246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

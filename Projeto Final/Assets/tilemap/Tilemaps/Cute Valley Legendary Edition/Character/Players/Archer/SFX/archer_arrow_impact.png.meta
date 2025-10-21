@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      archer_arrow_impact_0: -7359442638430940022
+      archer_arrow_impact_1: 5098655190366976674
+      archer_arrow_impact_2: -7670111169279227610
+      archer_arrow_impact_3: 5921067836574577847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

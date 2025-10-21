@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ShotgunSheetAnimated_0: 2103222215250752048
+      ShotgunSheetAnimated_1: 6001348303697988365
+      ShotgunSheetAnimated_2: -268261190315995443
+      ShotgunSheetAnimated_3: -8360020463174525577
+      ShotgunSheetAnimated_4: 252211871216649598
+      ShotgunSheetAnimated_5: 7455590149300981190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

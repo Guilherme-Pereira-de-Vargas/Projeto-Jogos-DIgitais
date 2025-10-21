@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kid_sprite_sheet_0: -639638678030859507
+      kid_sprite_sheet_1: -3964138685967167583
+      kid_sprite_sheet_10: 967530691840030984
+      kid_sprite_sheet_11: 8305514888507556284
+      kid_sprite_sheet_12: -3355281836177194153
+      kid_sprite_sheet_13: 4622106218965349664
+      kid_sprite_sheet_14: -3583646110668669401
+      kid_sprite_sheet_15: -5618969723575034713
+      kid_sprite_sheet_16: -8730598972619454154
+      kid_sprite_sheet_17: -9172210554843712768
+      kid_sprite_sheet_18: -6256827677932834740
+      kid_sprite_sheet_19: 2937752435246689747
+      kid_sprite_sheet_2: 8341767222060227109
+      kid_sprite_sheet_20: -8335182891558150653
+      kid_sprite_sheet_21: -5075614014421603601
+      kid_sprite_sheet_22: -5696598592484382341
+      kid_sprite_sheet_23: -6736508963210960032
+      kid_sprite_sheet_3: -7772506857895308569
+      kid_sprite_sheet_4: 7797021073272235336
+      kid_sprite_sheet_5: 1538089688689451911
+      kid_sprite_sheet_6: -3463943701117896447
+      kid_sprite_sheet_7: 3143862444267466237
+      kid_sprite_sheet_8: -3292809380403293781
+      kid_sprite_sheet_9: 5429409863244853813
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

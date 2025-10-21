@@ -809,7 +809,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlyingSkull_sprite_sheet_0: -9090907262787833337
+      FlyingSkull_sprite_sheet_1: -2130531136886131041
+      FlyingSkull_sprite_sheet_10: -9067942473129651868
+      FlyingSkull_sprite_sheet_11: -4555960970372330191
+      FlyingSkull_sprite_sheet_12: -4967988307525339914
+      FlyingSkull_sprite_sheet_13: -4768520417569372620
+      FlyingSkull_sprite_sheet_14: -779282595894088041
+      FlyingSkull_sprite_sheet_15: 876735754549966894
+      FlyingSkull_sprite_sheet_16: -8251327451288306971
+      FlyingSkull_sprite_sheet_17: -2834037024771923923
+      FlyingSkull_sprite_sheet_18: -7001889245298405782
+      FlyingSkull_sprite_sheet_19: 8367688140455317165
+      FlyingSkull_sprite_sheet_2: -8147411806278693007
+      FlyingSkull_sprite_sheet_20: 3815937550673113630
+      FlyingSkull_sprite_sheet_21: -2877891851888569513
+      FlyingSkull_sprite_sheet_22: 3584688286891666150
+      FlyingSkull_sprite_sheet_23: 5997252370954616670
+      FlyingSkull_sprite_sheet_24: 4310688728256561904
+      FlyingSkull_sprite_sheet_25: -1684712253071242933
+      FlyingSkull_sprite_sheet_26: -2915591232249960080
+      FlyingSkull_sprite_sheet_27: -7079487970902834281
+      FlyingSkull_sprite_sheet_3: 4123448212162143097
+      FlyingSkull_sprite_sheet_4: -1992966766486447031
+      FlyingSkull_sprite_sheet_5: 2405443873021218040
+      FlyingSkull_sprite_sheet_6: -5441851964236685052
+      FlyingSkull_sprite_sheet_7: 1196021860024591367
+      FlyingSkull_sprite_sheet_8: -5800709540151551062
+      FlyingSkull_sprite_sheet_9: 8053766069740787926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chonker_run_0: 5065217410882100485
+      chonker_run_1: -7303741609936786360
+      chonker_run_2: -3253142457905319210
+      chonker_run_3: 5658105119170134480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

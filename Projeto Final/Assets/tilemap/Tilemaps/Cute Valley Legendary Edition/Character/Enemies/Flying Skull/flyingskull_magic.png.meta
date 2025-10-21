@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flyingskull_magic_0: -9016412347284588765
+      flyingskull_magic_1: 5080817072443204144
+      flyingskull_magic_2: -3001364194530773778
+      flyingskull_magic_3: -6719028231706029749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

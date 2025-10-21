@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      witch_fireball_0: -1559400402387991749
+      witch_fireball_1: -2922981707820113517
+      witch_fireball_2: -914865719813930474
+      witch_fireball_3: -8004889297114104675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

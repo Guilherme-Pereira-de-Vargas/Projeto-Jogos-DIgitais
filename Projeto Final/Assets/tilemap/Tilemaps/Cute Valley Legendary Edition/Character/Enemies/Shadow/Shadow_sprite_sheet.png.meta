@@ -684,7 +684,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shadow_sprite_sheet_0: 4669485799671518577
+      Shadow_sprite_sheet_1: -7717598871134563727
+      Shadow_sprite_sheet_10: -8275820216999935649
+      Shadow_sprite_sheet_11: 6024082168436667226
+      Shadow_sprite_sheet_12: -6925191822160637414
+      Shadow_sprite_sheet_13: 6980082196003298607
+      Shadow_sprite_sheet_14: -5722595970713509812
+      Shadow_sprite_sheet_15: -3971627583687290821
+      Shadow_sprite_sheet_16: -1815776359914706923
+      Shadow_sprite_sheet_17: -8276716706035639072
+      Shadow_sprite_sheet_18: 4517805290817860999
+      Shadow_sprite_sheet_19: -7826317143303722535
+      Shadow_sprite_sheet_2: 2320692747365976233
+      Shadow_sprite_sheet_20: -5393887966551797864
+      Shadow_sprite_sheet_21: 2187989869478951319
+      Shadow_sprite_sheet_22: 4376727709474093312
+      Shadow_sprite_sheet_3: 7894519626049263178
+      Shadow_sprite_sheet_4: 167709877256298448
+      Shadow_sprite_sheet_5: 1028785167972763913
+      Shadow_sprite_sheet_6: -505985213565895966
+      Shadow_sprite_sheet_7: 5508453738106754869
+      Shadow_sprite_sheet_8: -4989735074992707866
+      Shadow_sprite_sheet_9: 4581608556253529889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
