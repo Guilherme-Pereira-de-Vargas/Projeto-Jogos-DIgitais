@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      swordsman_sprite_sheet_0: 4315008448938013417
+      swordsman_sprite_sheet_1: 8326320729680175018
+      swordsman_sprite_sheet_10: -6297016573809446863
+      swordsman_sprite_sheet_11: 4033268531830725851
+      swordsman_sprite_sheet_12: -6895797319238763275
+      swordsman_sprite_sheet_13: -3358803498186598615
+      swordsman_sprite_sheet_14: 2161160647838332099
+      swordsman_sprite_sheet_15: -4357190369916398539
+      swordsman_sprite_sheet_16: -1017350576746292767
+      swordsman_sprite_sheet_17: -2072065895000684868
+      swordsman_sprite_sheet_18: -914225409926307882
+      swordsman_sprite_sheet_19: 5308165785330681139
+      swordsman_sprite_sheet_2: 7564579081707543236
+      swordsman_sprite_sheet_20: -8688674897278911513
+      swordsman_sprite_sheet_21: -5601956392973390837
+      swordsman_sprite_sheet_22: 1595919365866226846
+      swordsman_sprite_sheet_23: -3650324089141409719
+      swordsman_sprite_sheet_3: 4317862274826406896
+      swordsman_sprite_sheet_4: 8074125801872231912
+      swordsman_sprite_sheet_5: -512654030836197604
+      swordsman_sprite_sheet_6: 2209289010503004542
+      swordsman_sprite_sheet_7: -7528755475470511643
+      swordsman_sprite_sheet_8: 5510124782997099800
+      swordsman_sprite_sheet_9: -1495296383075766660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

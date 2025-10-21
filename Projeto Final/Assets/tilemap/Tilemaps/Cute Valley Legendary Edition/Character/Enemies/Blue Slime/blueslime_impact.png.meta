@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blueslime_impact_0: 3712519498042257008
+      blueslime_impact_1: 3808757658127309708
+      blueslime_impact_2: 6957160233453229119
+      blueslime_impact_3: -7542223103225539524
+      blueslime_impact_4: 6457867114915695313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

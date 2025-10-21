@@ -859,7 +859,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blueslime_sprite_sheet_0: -3447217768299208520
+      blueslime_sprite_sheet_1: 3156408909245720153
+      blueslime_sprite_sheet_10: 8419000329745515234
+      blueslime_sprite_sheet_11: 1216734662828999023
+      blueslime_sprite_sheet_12: 7295313240464270577
+      blueslime_sprite_sheet_13: 4128698313975263874
+      blueslime_sprite_sheet_14: -1876465997292922310
+      blueslime_sprite_sheet_15: -2809101867490000402
+      blueslime_sprite_sheet_16: 446418312925798472
+      blueslime_sprite_sheet_17: -4256925569787370837
+      blueslime_sprite_sheet_18: 8475416464348043693
+      blueslime_sprite_sheet_19: 3406636541940954230
+      blueslime_sprite_sheet_2: 3594863517291904362
+      blueslime_sprite_sheet_20: -8811672916558895609
+      blueslime_sprite_sheet_21: 8659475035238107584
+      blueslime_sprite_sheet_22: -7471300369224863738
+      blueslime_sprite_sheet_23: -8057155659560421653
+      blueslime_sprite_sheet_24: -1240030904623003825
+      blueslime_sprite_sheet_25: 8424841606497098147
+      blueslime_sprite_sheet_26: -4447091064321943507
+      blueslime_sprite_sheet_27: 2366382112053871130
+      blueslime_sprite_sheet_28: -2383833063250242461
+      blueslime_sprite_sheet_29: 2830127307021789800
+      blueslime_sprite_sheet_3: -3600542049156178697
+      blueslime_sprite_sheet_4: -6366012035557327697
+      blueslime_sprite_sheet_5: -4706386889974908586
+      blueslime_sprite_sheet_6: 8280979776850330040
+      blueslime_sprite_sheet_7: 8246940572656375162
+      blueslime_sprite_sheet_8: -3573418985213317811
+      blueslime_sprite_sheet_9: -3241620057110215875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

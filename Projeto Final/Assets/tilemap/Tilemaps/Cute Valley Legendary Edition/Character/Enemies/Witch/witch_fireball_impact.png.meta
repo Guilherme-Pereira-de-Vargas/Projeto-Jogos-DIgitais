@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      witch_fireball_impact_0: -5044244236005508473
+      witch_fireball_impact_1: -1436931114172293898
+      witch_fireball_impact_2: 2358557178439759155
+      witch_fireball_impact_3: 8964221073553852742
+      witch_fireball_impact_4: 2951668155037346417
+      witch_fireball_impact_5: -2628591483953270630
+      witch_fireball_impact_6: -4859769581267689904
+      witch_fireball_impact_7: -6442755046876417927
+      witch_fireball_impact_8: 97228604206288673
+      witch_fireball_impact_9: -1180243978509830803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

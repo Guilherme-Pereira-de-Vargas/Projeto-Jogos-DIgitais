@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlueGilbertExplodingAnimated_0: 4431925992577953970
+      BlueGilbertExplodingAnimated_1: -1859878351921973057
+      BlueGilbertExplodingAnimated_2: -5119764546173518696
+      BlueGilbertExplodingAnimated_3: -8617602865249294639
+      BlueGilbertExplodingAnimated_4: -7350636607162412150
+      BlueGilbertExplodingAnimated_5: -2421373087288645589
+      BlueGilbertExplodingAnimated_6: 6416668361158463353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

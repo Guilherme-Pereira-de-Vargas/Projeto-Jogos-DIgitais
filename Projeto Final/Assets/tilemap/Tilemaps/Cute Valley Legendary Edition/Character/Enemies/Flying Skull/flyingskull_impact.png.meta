@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flyingskull_impact_0: -957878027502225365
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

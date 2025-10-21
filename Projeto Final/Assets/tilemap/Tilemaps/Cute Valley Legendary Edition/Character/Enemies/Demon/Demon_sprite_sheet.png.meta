@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon_sprite_sheet_0: 8574057490692431214
+      Demon_sprite_sheet_1: -4689858012670446306
+      Demon_sprite_sheet_10: -7259075538758381300
+      Demon_sprite_sheet_11: 4345228594712427494
+      Demon_sprite_sheet_12: -932925746452073526
+      Demon_sprite_sheet_13: -8276632198896694424
+      Demon_sprite_sheet_14: 4304430720676458095
+      Demon_sprite_sheet_15: 156180080793119281
+      Demon_sprite_sheet_16: 634409154017490712
+      Demon_sprite_sheet_17: 9044364585549296581
+      Demon_sprite_sheet_18: -3264546652651621546
+      Demon_sprite_sheet_19: 8001466652413457593
+      Demon_sprite_sheet_2: 8238503040766786972
+      Demon_sprite_sheet_20: 1914330045173352988
+      Demon_sprite_sheet_21: 2307653474159579147
+      Demon_sprite_sheet_22: -2245617922492179657
+      Demon_sprite_sheet_23: -6782529761432288544
+      Demon_sprite_sheet_3: -6019996553681931714
+      Demon_sprite_sheet_4: -1271514374242946425
+      Demon_sprite_sheet_5: -2062877780826045593
+      Demon_sprite_sheet_6: 5005604886308454527
+      Demon_sprite_sheet_7: 341977015451751452
+      Demon_sprite_sheet_8: 1810543860857984546
+      Demon_sprite_sheet_9: -2524690895672246748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

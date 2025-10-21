@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flyingeye_impact_0: 1101871122765456894
+      flyingeye_impact_1: 4828306380368253717
+      flyingeye_impact_2: 3957205003526281504
+      flyingeye_impact_3: 8873380288010245814
+      flyingeye_impact_4: -140595928492703096
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

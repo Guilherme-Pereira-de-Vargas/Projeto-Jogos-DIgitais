@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NyponWalkingAnimated_0: 2301292925122291478
+      NyponWalkingAnimated_1: 8807663856060457438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

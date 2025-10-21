@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chest_4_0: -929528163122557212
+      chest_4_1: -2629890687745379034
+      chest_4_2: -3498263075234319513
+      chest_4_3: -8172218495175478093
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      alchemist_sprite_sheet_0: 6020081467793524179
+      alchemist_sprite_sheet_1: -2199282155375285027
+      alchemist_sprite_sheet_10: 3567939677765876838
+      alchemist_sprite_sheet_11: -2917845086750230426
+      alchemist_sprite_sheet_12: 3898060405902605761
+      alchemist_sprite_sheet_13: -446494568917295359
+      alchemist_sprite_sheet_14: 4446795497671424275
+      alchemist_sprite_sheet_15: 3294150031129689631
+      alchemist_sprite_sheet_16: -8204177231543909759
+      alchemist_sprite_sheet_17: -1518556791904794623
+      alchemist_sprite_sheet_18: 3023581438183504730
+      alchemist_sprite_sheet_19: -3968285462104851177
+      alchemist_sprite_sheet_2: 5084027200183149165
+      alchemist_sprite_sheet_20: 1031343998233111557
+      alchemist_sprite_sheet_21: -7440476852754026259
+      alchemist_sprite_sheet_22: 7256418546518404008
+      alchemist_sprite_sheet_23: 2114128458407660599
+      alchemist_sprite_sheet_3: -9163877327012576340
+      alchemist_sprite_sheet_4: 8682494743418233443
+      alchemist_sprite_sheet_5: 1773563638128902013
+      alchemist_sprite_sheet_6: -8573848868450177147
+      alchemist_sprite_sheet_7: 3664482387039428182
+      alchemist_sprite_sheet_8: -7599291266551771006
+      alchemist_sprite_sheet_9: -2384025907581974436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

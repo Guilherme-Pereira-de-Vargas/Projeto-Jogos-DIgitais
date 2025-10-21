@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chonker_idle_0: 1202805112617694914
+      chonker_idle_1: -4215827824417637356
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

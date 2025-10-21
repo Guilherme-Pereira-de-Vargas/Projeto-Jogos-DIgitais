@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flyingeye_magic_0: 1753481714629839490
+      flyingeye_magic_1: -7695667634202849109
+      flyingeye_magic_2: 1657623664606991498
+      flyingeye_magic_3: 4464490165984880366
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

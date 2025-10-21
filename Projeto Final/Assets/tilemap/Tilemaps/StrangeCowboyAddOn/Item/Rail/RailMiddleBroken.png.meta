@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RailMiddleBroken_0: -8232623678193825465
+      RailMiddleBroken_1: -3840826427769588308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -809,7 +809,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      paladin_sprite_sheet_0: 5102239454148925456
+      paladin_sprite_sheet_1: 8240834355002752475
+      paladin_sprite_sheet_10: 216039365534197854
+      paladin_sprite_sheet_11: 6156276194599232660
+      paladin_sprite_sheet_12: -7022873820763236956
+      paladin_sprite_sheet_13: -6128307157658172125
+      paladin_sprite_sheet_14: 9042333152468520896
+      paladin_sprite_sheet_15: -5942302728725253448
+      paladin_sprite_sheet_16: 1137627564380075003
+      paladin_sprite_sheet_17: 2824440351687416997
+      paladin_sprite_sheet_18: 7984895351245988662
+      paladin_sprite_sheet_19: -9002010552780755491
+      paladin_sprite_sheet_2: -3234676581235299946
+      paladin_sprite_sheet_20: 8899990931600010893
+      paladin_sprite_sheet_21: -7191102226857372263
+      paladin_sprite_sheet_22: -1790521750038594427
+      paladin_sprite_sheet_23: 6643096389553136690
+      paladin_sprite_sheet_24: 3891168239791557416
+      paladin_sprite_sheet_25: 5199112950691334272
+      paladin_sprite_sheet_26: 6396756388879567667
+      paladin_sprite_sheet_27: 859707891576928465
+      paladin_sprite_sheet_3: -6202767111678568327
+      paladin_sprite_sheet_4: 1475114716881431631
+      paladin_sprite_sheet_5: -371287392337139204
+      paladin_sprite_sheet_6: -4713839433657591251
+      paladin_sprite_sheet_7: -740431848249515821
+      paladin_sprite_sheet_8: -4536433537565679894
+      paladin_sprite_sheet_9: -7316001554097662711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

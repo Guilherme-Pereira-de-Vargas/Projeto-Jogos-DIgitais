@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mage_sprite_sheet_0: 1211645566340650451
+      mage_sprite_sheet_1: -4792000358929329654
+      mage_sprite_sheet_10: 5708003474876784752
+      mage_sprite_sheet_11: -8893189371714520250
+      mage_sprite_sheet_12: 4390277208882014315
+      mage_sprite_sheet_13: 5070352755127222193
+      mage_sprite_sheet_14: 5348442649254664283
+      mage_sprite_sheet_15: 7417194297923638643
+      mage_sprite_sheet_16: 5347944806386211010
+      mage_sprite_sheet_17: 3485098758623329109
+      mage_sprite_sheet_18: 4230904110353708002
+      mage_sprite_sheet_19: -8836210669685304884
+      mage_sprite_sheet_2: -6527993742754148553
+      mage_sprite_sheet_20: -500166820004106756
+      mage_sprite_sheet_21: 9100621595123808130
+      mage_sprite_sheet_22: -1100225714876159637
+      mage_sprite_sheet_23: 4907845090725267991
+      mage_sprite_sheet_3: -6068378249859038185
+      mage_sprite_sheet_4: -4295829118556870125
+      mage_sprite_sheet_5: 575751358814976124
+      mage_sprite_sheet_6: 8463062030988617696
+      mage_sprite_sheet_7: 140310592975052567
+      mage_sprite_sheet_8: 96001402427857901
+      mage_sprite_sheet_9: -7471264198348506941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

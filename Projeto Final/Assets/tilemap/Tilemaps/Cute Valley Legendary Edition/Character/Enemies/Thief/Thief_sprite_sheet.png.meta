@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Thief_sprite_sheet_0: 6007233276914055474
+      Thief_sprite_sheet_1: 3945492398740684890
+      Thief_sprite_sheet_10: 5947445646849317283
+      Thief_sprite_sheet_11: -9072705011764635252
+      Thief_sprite_sheet_12: -1517773542766855570
+      Thief_sprite_sheet_13: -4099922748223357640
+      Thief_sprite_sheet_14: 5813986415769983265
+      Thief_sprite_sheet_15: 6893121433414650232
+      Thief_sprite_sheet_16: -673371918127141542
+      Thief_sprite_sheet_17: 4875987488641506008
+      Thief_sprite_sheet_18: -4464067665180500679
+      Thief_sprite_sheet_19: -1735453579558782539
+      Thief_sprite_sheet_2: -379275158292838890
+      Thief_sprite_sheet_20: 2524223961595269409
+      Thief_sprite_sheet_21: 1463461666933899354
+      Thief_sprite_sheet_22: 7427725890041435920
+      Thief_sprite_sheet_23: -926838093775405612
+      Thief_sprite_sheet_3: -5445069735436511660
+      Thief_sprite_sheet_4: -5331660479706381850
+      Thief_sprite_sheet_5: 6480947599652980286
+      Thief_sprite_sheet_6: 7178925462444100870
+      Thief_sprite_sheet_7: -5672691709830945231
+      Thief_sprite_sheet_8: -6265333062046135847
+      Thief_sprite_sheet_9: -6751413112978174481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

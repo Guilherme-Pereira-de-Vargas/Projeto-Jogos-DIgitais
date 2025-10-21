@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SkeletonGeneral_sprite_sheet_0: -464281548204396848
+      SkeletonGeneral_sprite_sheet_1: 6854517231350899581
+      SkeletonGeneral_sprite_sheet_10: 2464827285282542821
+      SkeletonGeneral_sprite_sheet_11: -2978098500083029450
+      SkeletonGeneral_sprite_sheet_12: -1810229223520990419
+      SkeletonGeneral_sprite_sheet_13: -2310674886479274601
+      SkeletonGeneral_sprite_sheet_14: -7997336460852799504
+      SkeletonGeneral_sprite_sheet_15: 2482830931103305220
+      SkeletonGeneral_sprite_sheet_16: -4214916145228777301
+      SkeletonGeneral_sprite_sheet_17: 4108379791021016530
+      SkeletonGeneral_sprite_sheet_18: 7523690468451103206
+      SkeletonGeneral_sprite_sheet_19: 1372046152265829173
+      SkeletonGeneral_sprite_sheet_2: 5296664417489572422
+      SkeletonGeneral_sprite_sheet_20: -6042846736863810842
+      SkeletonGeneral_sprite_sheet_21: -1110338701530969678
+      SkeletonGeneral_sprite_sheet_22: 2488502375239897456
+      SkeletonGeneral_sprite_sheet_23: -8775926532100227071
+      SkeletonGeneral_sprite_sheet_3: -2798392828751154555
+      SkeletonGeneral_sprite_sheet_4: -328341419823438790
+      SkeletonGeneral_sprite_sheet_5: 379466383022082352
+      SkeletonGeneral_sprite_sheet_6: 1251037213883980752
+      SkeletonGeneral_sprite_sheet_7: -8914261187938675572
+      SkeletonGeneral_sprite_sheet_8: 3585800431085455321
+      SkeletonGeneral_sprite_sheet_9: 4014642902430148835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

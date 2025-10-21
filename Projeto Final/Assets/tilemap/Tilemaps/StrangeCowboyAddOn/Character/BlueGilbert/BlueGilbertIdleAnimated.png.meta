@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlueGilbertIdleAnimated_0: -7831491756467749597
+      BlueGilbertIdleAnimated_1: -4528331205812477794
+      BlueGilbertIdleAnimated_2: -1648192129302301296
+      BlueGilbertIdleAnimated_3: 2251857505982311810
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

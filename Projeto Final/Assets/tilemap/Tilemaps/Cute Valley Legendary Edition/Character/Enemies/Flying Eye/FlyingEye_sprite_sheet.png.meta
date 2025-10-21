@@ -784,7 +784,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlyingEye_sprite_sheet_0: 5913906606122411683
+      FlyingEye_sprite_sheet_1: -2569412381408686359
+      FlyingEye_sprite_sheet_10: 6358627806749704953
+      FlyingEye_sprite_sheet_11: -397568109402570409
+      FlyingEye_sprite_sheet_12: 1751725956968949510
+      FlyingEye_sprite_sheet_13: 8477471061143349494
+      FlyingEye_sprite_sheet_14: -13292133771096554
+      FlyingEye_sprite_sheet_15: -4839592870350154475
+      FlyingEye_sprite_sheet_16: -6004287495067000171
+      FlyingEye_sprite_sheet_17: -173975571047785640
+      FlyingEye_sprite_sheet_18: -5774351515457626228
+      FlyingEye_sprite_sheet_19: 1867646192531292761
+      FlyingEye_sprite_sheet_2: -8702733457853530633
+      FlyingEye_sprite_sheet_20: 9148758304087428646
+      FlyingEye_sprite_sheet_21: 8573079453577682722
+      FlyingEye_sprite_sheet_22: 8481916643705566100
+      FlyingEye_sprite_sheet_23: -7114598226555018332
+      FlyingEye_sprite_sheet_24: 8651396885371733221
+      FlyingEye_sprite_sheet_25: 8772456827371385478
+      FlyingEye_sprite_sheet_26: 3584485441891916809
+      FlyingEye_sprite_sheet_3: 3794358083039402699
+      FlyingEye_sprite_sheet_4: 1115445296225200664
+      FlyingEye_sprite_sheet_5: 992083762072104857
+      FlyingEye_sprite_sheet_6: -4043214183541974658
+      FlyingEye_sprite_sheet_7: -5430813371069145689
+      FlyingEye_sprite_sheet_8: -3437592764561832009
+      FlyingEye_sprite_sheet_9: 3086054346114095904
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

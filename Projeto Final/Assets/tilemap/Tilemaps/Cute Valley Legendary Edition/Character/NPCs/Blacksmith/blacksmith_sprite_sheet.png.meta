@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blacksmith_sprite_sheet_0: 5143035177175979226
+      blacksmith_sprite_sheet_1: -3899028294853022658
+      blacksmith_sprite_sheet_10: 7250775195585644009
+      blacksmith_sprite_sheet_11: 1447223946384923540
+      blacksmith_sprite_sheet_12: 1836039096855672771
+      blacksmith_sprite_sheet_13: 1756054330326413555
+      blacksmith_sprite_sheet_14: -3923581017743553288
+      blacksmith_sprite_sheet_15: -5889289151770192148
+      blacksmith_sprite_sheet_16: -2731761163033864742
+      blacksmith_sprite_sheet_17: -326643413527711737
+      blacksmith_sprite_sheet_18: -5631954413856858469
+      blacksmith_sprite_sheet_19: -1955874739556881184
+      blacksmith_sprite_sheet_2: 1525623873727354008
+      blacksmith_sprite_sheet_20: -5998102525132850932
+      blacksmith_sprite_sheet_21: -6302100984391082082
+      blacksmith_sprite_sheet_22: 4746521028505262272
+      blacksmith_sprite_sheet_23: -4140385758799196275
+      blacksmith_sprite_sheet_3: 5925716228036464914
+      blacksmith_sprite_sheet_4: -4635231281911183962
+      blacksmith_sprite_sheet_5: 7659674275159323127
+      blacksmith_sprite_sheet_6: 7543277522422489736
+      blacksmith_sprite_sheet_7: -8489052073171380337
+      blacksmith_sprite_sheet_8: -7790951432822634624
+      blacksmith_sprite_sheet_9: -6196941056187422808
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

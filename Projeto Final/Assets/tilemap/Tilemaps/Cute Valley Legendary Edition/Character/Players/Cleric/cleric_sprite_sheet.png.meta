@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cleric_sprite_sheet_0: -806612047849204044
+      cleric_sprite_sheet_1: 1966568729208781068
+      cleric_sprite_sheet_10: 8969325438987190652
+      cleric_sprite_sheet_11: 7035346421456007363
+      cleric_sprite_sheet_12: 1917416257801649075
+      cleric_sprite_sheet_13: 8355096297388558517
+      cleric_sprite_sheet_14: -7290877603905508787
+      cleric_sprite_sheet_15: 960429065200338303
+      cleric_sprite_sheet_16: 6711285837250651473
+      cleric_sprite_sheet_17: -5505330290594532347
+      cleric_sprite_sheet_18: 1359188902557189301
+      cleric_sprite_sheet_19: 5267839508628097559
+      cleric_sprite_sheet_2: 3278454649779203078
+      cleric_sprite_sheet_20: 7886814526334036003
+      cleric_sprite_sheet_21: 4208120871401430433
+      cleric_sprite_sheet_22: 4141688968364550888
+      cleric_sprite_sheet_23: 3741403971300218319
+      cleric_sprite_sheet_3: -2151401290840716113
+      cleric_sprite_sheet_4: 525953572773437353
+      cleric_sprite_sheet_5: 2527050149647083566
+      cleric_sprite_sheet_6: -9027816420551176152
+      cleric_sprite_sheet_7: -994559073810458240
+      cleric_sprite_sheet_8: 1339187535247915996
+      cleric_sprite_sheet_9: 8454478722207483921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

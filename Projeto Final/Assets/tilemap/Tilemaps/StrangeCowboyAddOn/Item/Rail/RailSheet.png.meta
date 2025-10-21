@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RailSheet_0: -6933561703582030124
+      RailSheet_1: -8989622305546423501
+      RailSheet_2: -7955539651157066652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

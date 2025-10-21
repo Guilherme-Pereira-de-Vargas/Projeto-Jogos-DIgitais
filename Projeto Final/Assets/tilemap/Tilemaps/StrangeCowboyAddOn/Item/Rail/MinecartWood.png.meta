@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MinecartWood_0: -2099785014312815142
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -734,7 +734,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zombie_sprite_sheet_0: -3676719138714860217
+      Zombie_sprite_sheet_1: 3432219770968688550
+      Zombie_sprite_sheet_10: 8094368882211883695
+      Zombie_sprite_sheet_11: 9156284170258019424
+      Zombie_sprite_sheet_12: 9079832000837866503
+      Zombie_sprite_sheet_13: -7572643071588859570
+      Zombie_sprite_sheet_14: 3319405290805350124
+      Zombie_sprite_sheet_15: 1860684296373478347
+      Zombie_sprite_sheet_16: -882750658125856058
+      Zombie_sprite_sheet_17: 1884347628796746844
+      Zombie_sprite_sheet_18: -5267980934209909519
+      Zombie_sprite_sheet_19: 615350036834784124
+      Zombie_sprite_sheet_2: 3031775451315479082
+      Zombie_sprite_sheet_20: -6902256660360153926
+      Zombie_sprite_sheet_21: -4301253001006938597
+      Zombie_sprite_sheet_22: -4167819750970436860
+      Zombie_sprite_sheet_23: 5682422022117349070
+      Zombie_sprite_sheet_24: 6450682072236082214
+      Zombie_sprite_sheet_3: -1581498604879641721
+      Zombie_sprite_sheet_4: 4892254733508502399
+      Zombie_sprite_sheet_5: 3825288713907187282
+      Zombie_sprite_sheet_6: 651509252161380425
+      Zombie_sprite_sheet_7: -4463304880625260492
+      Zombie_sprite_sheet_8: 8645116011024841804
+      Zombie_sprite_sheet_9: -3761074464483711739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
