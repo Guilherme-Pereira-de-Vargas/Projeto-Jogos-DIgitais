@@ -1209,7 +1209,51 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nature_Tileset_0: 2079365690729269096
+      Nature_Tileset_1: -1945104064634201803
+      Nature_Tileset_10: 2403606967330122266
+      Nature_Tileset_11: 7124919842496755282
+      Nature_Tileset_12: -4682051404616625036
+      Nature_Tileset_13: -7245235244481216198
+      Nature_Tileset_14: -4897700322372725869
+      Nature_Tileset_15: -7074104237837322120
+      Nature_Tileset_16: -760967148687148046
+      Nature_Tileset_17: 1998217975766664327
+      Nature_Tileset_18: -6660580359296053249
+      Nature_Tileset_19: 6098030380926546226
+      Nature_Tileset_2: 810461910939593765
+      Nature_Tileset_20: -2436189757946333316
+      Nature_Tileset_21: 4285658668457780707
+      Nature_Tileset_22: -4668592206723560774
+      Nature_Tileset_23: -1245531608656793876
+      Nature_Tileset_24: -222476748689200115
+      Nature_Tileset_25: -920630553507384276
+      Nature_Tileset_26: -5324439516388231251
+      Nature_Tileset_27: 6983677009692009708
+      Nature_Tileset_28: 119156890897589805
+      Nature_Tileset_29: 7099917999812859115
+      Nature_Tileset_3: 7131083851394800472
+      Nature_Tileset_30: 4974781751203170459
+      Nature_Tileset_31: -1327432584840399072
+      Nature_Tileset_32: -8700242152401134562
+      Nature_Tileset_33: 8147485451304721391
+      Nature_Tileset_34: -231808033247104362
+      Nature_Tileset_35: -3129474590475988480
+      Nature_Tileset_36: 9122292327037789338
+      Nature_Tileset_37: -3210800734509399198
+      Nature_Tileset_38: 5551800866326594017
+      Nature_Tileset_39: 8329487083744379416
+      Nature_Tileset_4: -3211274417320604244
+      Nature_Tileset_40: -4529649989476253296
+      Nature_Tileset_41: 7767805120971029631
+      Nature_Tileset_42: 3264103145584969100
+      Nature_Tileset_43: -8858445860686838962
+      Nature_Tileset_5: -923772987137332420
+      Nature_Tileset_6: -7889906281951516077
+      Nature_Tileset_7: -1947129814938843962
+      Nature_Tileset_8: -1704857557057056026
+      Nature_Tileset_9: 508079797219810564
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

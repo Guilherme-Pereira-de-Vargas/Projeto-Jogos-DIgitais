@@ -1409,7 +1409,59 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      House_Tileset_0: -6004179223299041686
+      House_Tileset_1: 1558427055566469204
+      House_Tileset_10: -2587299583354611275
+      House_Tileset_11: -7205132474908635235
+      House_Tileset_12: 364638985521899764
+      House_Tileset_13: -3406712151120355939
+      House_Tileset_14: 5562640596554148161
+      House_Tileset_15: 1501817258145856363
+      House_Tileset_16: -1824995884174215610
+      House_Tileset_17: -3007550725257823723
+      House_Tileset_18: 6048589557622682816
+      House_Tileset_19: 1797209654460863275
+      House_Tileset_2: -4932021465975541993
+      House_Tileset_20: 8793193444466598992
+      House_Tileset_21: -4719061992015865857
+      House_Tileset_22: -342057739055809910
+      House_Tileset_23: 6528816365448567804
+      House_Tileset_24: -1017686954209021142
+      House_Tileset_25: -4093610182775510706
+      House_Tileset_26: 7414548398826274033
+      House_Tileset_27: -2474112291886394040
+      House_Tileset_28: -8297052217869843295
+      House_Tileset_29: 4268868211810653599
+      House_Tileset_3: 343869279797324849
+      House_Tileset_30: -1915350057682496022
+      House_Tileset_31: -8802727951182639551
+      House_Tileset_32: -2268859263032573406
+      House_Tileset_33: 2210236612028477348
+      House_Tileset_34: -1708191857419982499
+      House_Tileset_35: -5107313986225818662
+      House_Tileset_36: -1930923965358764719
+      House_Tileset_37: -6375599661749930863
+      House_Tileset_38: 3004069190505790605
+      House_Tileset_39: 6587558651487815657
+      House_Tileset_4: 2877025084458368599
+      House_Tileset_40: 4452991394779940991
+      House_Tileset_41: -6757843869680553424
+      House_Tileset_42: -4909203773966652527
+      House_Tileset_43: 7301070573051882893
+      House_Tileset_44: -3269138451891369775
+      House_Tileset_45: 1773666181165430496
+      House_Tileset_46: 8311948788973890034
+      House_Tileset_47: 4919114911888633322
+      House_Tileset_48: 2659715738218261566
+      House_Tileset_49: -8247741591496333108
+      House_Tileset_5: 3485186737079984604
+      House_Tileset_50: -1452976326429018751
+      House_Tileset_51: 5317497934358583111
+      House_Tileset_6: -3996758406372072479
+      House_Tileset_7: -6766327815086196525
+      House_Tileset_8: -4691175005220459055
+      House_Tileset_9: 4591673887220661205
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

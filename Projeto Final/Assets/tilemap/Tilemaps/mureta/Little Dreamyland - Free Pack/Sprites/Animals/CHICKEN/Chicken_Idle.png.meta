@@ -909,7 +909,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chicken_Idle_0: -2963381780816623250
+      Chicken_Idle_1: 8603756733989272544
+      Chicken_Idle_10: 3203900390751981455
+      Chicken_Idle_11: -3138660102330861163
+      Chicken_Idle_12: 5645139158221014387
+      Chicken_Idle_13: 6041703985474417943
+      Chicken_Idle_14: -6074141990496676221
+      Chicken_Idle_15: -7352709326270335364
+      Chicken_Idle_16: 3291966664696818752
+      Chicken_Idle_17: 2130346521115670420
+      Chicken_Idle_18: -3083724785524232744
+      Chicken_Idle_19: 5711385761012386580
+      Chicken_Idle_2: -9190900688702326823
+      Chicken_Idle_20: 7843347239258901617
+      Chicken_Idle_21: 7283003675312865994
+      Chicken_Idle_22: 8411651348301688891
+      Chicken_Idle_23: -5413620978937787704
+      Chicken_Idle_24: -1657985113499203634
+      Chicken_Idle_25: -9004486572798180205
+      Chicken_Idle_26: -1626188907376215946
+      Chicken_Idle_27: 5996528680606618330
+      Chicken_Idle_28: -2632886780761956816
+      Chicken_Idle_29: 1463515504627412186
+      Chicken_Idle_3: 8253230457771034439
+      Chicken_Idle_30: 8284875586332388669
+      Chicken_Idle_31: -8142215598372388762
+      Chicken_Idle_4: -6366571850556418091
+      Chicken_Idle_5: 6973562744889936580
+      Chicken_Idle_6: 7741405447600564913
+      Chicken_Idle_7: 91374328209045327
+      Chicken_Idle_8: -7834387805103826339
+      Chicken_Idle_9: -5328108452396659611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

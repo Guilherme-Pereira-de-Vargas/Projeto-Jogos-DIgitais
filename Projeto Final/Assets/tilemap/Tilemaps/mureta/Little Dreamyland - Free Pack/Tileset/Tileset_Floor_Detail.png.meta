@@ -1109,7 +1109,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tileset_Floor_Detail_0: 7325365188542734054
+      Tileset_Floor_Detail_1: 1549503074561963675
+      Tileset_Floor_Detail_10: -4139099601561850517
+      Tileset_Floor_Detail_11: 7688721648461225190
+      Tileset_Floor_Detail_12: 5152580244613332765
+      Tileset_Floor_Detail_13: 8492841829081181051
+      Tileset_Floor_Detail_14: -3488187973873669367
+      Tileset_Floor_Detail_15: 3241064712298894480
+      Tileset_Floor_Detail_16: -5823364230818188780
+      Tileset_Floor_Detail_17: -1916890457299239852
+      Tileset_Floor_Detail_18: 3417094732176492115
+      Tileset_Floor_Detail_19: 7128975110052361779
+      Tileset_Floor_Detail_2: -2877408707088659195
+      Tileset_Floor_Detail_20: -5222046389339657309
+      Tileset_Floor_Detail_21: -7735406361504651147
+      Tileset_Floor_Detail_22: -8850413517644189121
+      Tileset_Floor_Detail_23: 6077556522173520932
+      Tileset_Floor_Detail_24: -7172890242936423257
+      Tileset_Floor_Detail_25: 4296888746415980161
+      Tileset_Floor_Detail_26: 4628019808538918022
+      Tileset_Floor_Detail_27: 6871289729800805783
+      Tileset_Floor_Detail_28: -8118757469851374189
+      Tileset_Floor_Detail_29: 6160294702625935319
+      Tileset_Floor_Detail_3: -4542006817501716878
+      Tileset_Floor_Detail_30: -8066555959127519975
+      Tileset_Floor_Detail_31: -4121624117375000740
+      Tileset_Floor_Detail_32: -217624180246949036
+      Tileset_Floor_Detail_33: -8735563328474047676
+      Tileset_Floor_Detail_34: -866390672284016204
+      Tileset_Floor_Detail_35: 3998460853883678084
+      Tileset_Floor_Detail_36: -4823080605907341964
+      Tileset_Floor_Detail_37: -4177574384147128651
+      Tileset_Floor_Detail_38: 593407223666835136
+      Tileset_Floor_Detail_39: 8566654400664369834
+      Tileset_Floor_Detail_4: 6623829211123522516
+      Tileset_Floor_Detail_5: 3444565066709581771
+      Tileset_Floor_Detail_6: 8809018242001622658
+      Tileset_Floor_Detail_7: 7219822144002777389
+      Tileset_Floor_Detail_8: 4899035171739713398
+      Tileset_Floor_Detail_9: 8430559483176171783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

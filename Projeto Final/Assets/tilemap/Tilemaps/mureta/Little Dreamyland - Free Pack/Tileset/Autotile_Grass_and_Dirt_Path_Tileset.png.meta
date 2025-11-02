@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Autotile_Grass_and_Dirt_Path_Tileset_0: -460947138245544887
+      Autotile_Grass_and_Dirt_Path_Tileset_1: 4353741976172575776
+      Autotile_Grass_and_Dirt_Path_Tileset_10: 1464363977459585924
+      Autotile_Grass_and_Dirt_Path_Tileset_11: 6425870306231814788
+      Autotile_Grass_and_Dirt_Path_Tileset_2: -2922359287567772931
+      Autotile_Grass_and_Dirt_Path_Tileset_3: -2027816318952392036
+      Autotile_Grass_and_Dirt_Path_Tileset_4: 1618096255092232607
+      Autotile_Grass_and_Dirt_Path_Tileset_5: -5320392997964219866
+      Autotile_Grass_and_Dirt_Path_Tileset_6: -4740642788978676824
+      Autotile_Grass_and_Dirt_Path_Tileset_7: 8161073364395934560
+      Autotile_Grass_and_Dirt_Path_Tileset_8: -8119176491498657195
+      Autotile_Grass_and_Dirt_Path_Tileset_9: 7278672508451760427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
