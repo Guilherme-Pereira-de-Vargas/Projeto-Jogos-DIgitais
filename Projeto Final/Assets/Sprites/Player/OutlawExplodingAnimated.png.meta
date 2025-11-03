@@ -1,31 +1,40 @@
 fileFormatVersion: 2
-guid: a7d04089b295e184c8e95f1dfd7a37cf
+guid: af17f2de52da0ad48b7b63a14171842d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6885459366169405273
-    second: Slime_Hurt_0
+      213: 5407061116601866873
+    second: OutlawExplodingAnimated_0
   - first:
-      213: -3433400806978379142
-    second: Slime_Hurt_1
+      213: 953896575032401003
+    second: OutlawExplodingAnimated_1
   - first:
-      213: -7590717842824201
-    second: Slime_Hurt_2
+      213: 9114695605685941828
+    second: OutlawExplodingAnimated_2
   - first:
-      213: -8207576599654034685
-    second: Slime_Hurt_3
+      213: 950451409393926477
+    second: OutlawExplodingAnimated_3
   - first:
-      213: 6536314435790199096
-    second: Slime_Hurt_4
+      213: 4311432482604433435
+    second: OutlawExplodingAnimated_4
   - first:
-      213: -842553874164933680
-    second: Slime_Hurt_5
+      213: 402409687621299049
+    second: OutlawExplodingAnimated_5
   - first:
-      213: 6075399848758448602
-    second: Slime_Hurt_6
+      213: 9169754271229247448
+    second: OutlawExplodingAnimated_6
   - first:
-      213: -8539715932358790426
-    second: Slime_Hurt_7
+      213: 5908461274965432425
+    second: OutlawExplodingAnimated_7
+  - first:
+      213: 5344265745622949494
+    second: OutlawExplodingAnimated_8
+  - first:
+      213: 7729903073685051095
+    second: OutlawExplodingAnimated_9
+  - first:
+      213: 203311304595474702
+    second: OutlawExplodingAnimated_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,12 +130,100 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime_Hurt_0
+      name: OutlawExplodingAnimated_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 160
-        width: 14
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a91ed007db90b40800000000000000
+      internalID: 5407061116601866873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutlawExplodingAnimated_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c944b81ebec3d00800000000000000
+      internalID: 953896575032401003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutlawExplodingAnimated_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 12
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44679b49c57ed7e70800000000000000
+      internalID: 9114695605685941828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutlawExplodingAnimated_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41c139658ea03d00800000000000000
+      internalID: 950451409393926477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutlawExplodingAnimated_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 19
+        width: 16
         height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -136,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a8161cef2fe170a0800000000000000
-      internalID: -6885459366169405273
+      spriteID: b10c7befff845db30800000000000000
+      internalID: 4311432482604433435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Hurt_1
+      name: OutlawExplodingAnimated_5
       rect:
         serializedVersion: 2
-        x: 65
-        y: 160
-        width: 14
-        height: 13
+        x: 80
+        y: 15
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a72a380382c1a50d0800000000000000
-      internalID: -3433400806978379142
+      spriteID: 96be7d49a75a59500800000000000000
+      internalID: 402409687621299049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Hurt_2
+      name: OutlawExplodingAnimated_6
       rect:
         serializedVersion: 2
-        x: 17
-        y: 112
-        width: 14
-        height: 13
+        x: 97
+        y: 6
+        width: 23
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,86 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f36367484805eff0800000000000000
-      internalID: -7590717842824201
+      spriteID: 8df7d3e1de2814f70800000000000000
+      internalID: 9169754271229247448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Hurt_3
+      name: OutlawExplodingAnimated_7
       rect:
         serializedVersion: 2
-        x: 65
-        y: 112
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30310d67194d81e80800000000000000
-      internalID: -8207576599654034685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_Hurt_4
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 64
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83958853957a5ba50800000000000000
-      internalID: 6536314435790199096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_Hurt_5
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 64
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0db154a27b5ae44f0800000000000000
-      internalID: -842553874164933680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_Hurt_6
-      rect:
-        serializedVersion: 2
-        x: 17
+        x: 98
         y: 16
-        width: 14
-        height: 13
+        width: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad195bd39f7205450800000000000000
-      internalID: 6075399848758448602
+      spriteID: 9685777a9321ff150800000000000000
+      internalID: 5908461274965432425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Hurt_7
+      name: OutlawExplodingAnimated_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 16
-        width: 14
-        height: 13
+        x: 101
+        y: 0
+        width: 9
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +321,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e2b209da95dc7980800000000000000
-      internalID: -8539715932358790426
+      spriteID: 67ed4296165aa2a40800000000000000
+      internalID: 5344265745622949494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutlawExplodingAnimated_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 71
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6923704e1264b60800000000000000
+      internalID: 7729903073685051095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutlawExplodingAnimated_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 5
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e090c39ed8e42d200800000000000000
+      internalID: 203311304595474702
       vertices: []
       indices: 
       edges: []
@@ -309,15 +384,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Slime_Hurt_0: -6885459366169405273
-      Slime_Hurt_1: -3433400806978379142
-      Slime_Hurt_2: -7590717842824201
-      Slime_Hurt_3: -8207576599654034685
-      Slime_Hurt_4: 6536314435790199096
-      Slime_Hurt_5: -842553874164933680
-      Slime_Hurt_6: 6075399848758448602
-      Slime_Hurt_7: -8539715932358790426
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
