@@ -20,5 +20,18 @@ public class GameManager : MonoBehaviour
         Debug.Log("Pontos: " + pontos);
     }
 
-  
+    public void LostLifes(int vida)
+    {
+        vidas = vidas - vida;
+        Debug.Log("Vidas: " + vidas);
+
+        GameObject player = GameObject.FindWithTag("Player");
+        player.GetComponent<Player>().RestartPosition();
+
+        if (vidas <= 0)
+        {
+            Time.timeScale = 0;
+            Debug.Log("Game Over!");
+        }
+    }
 }

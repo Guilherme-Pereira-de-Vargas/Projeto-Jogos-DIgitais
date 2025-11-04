@@ -6,12 +6,15 @@ public class Player : MonoBehaviour
     private Rigidbody2D rigi;
     public float speed = 5f;
     public bool isGround;
+    public Vector2 PosicaoInicial;
+    public GameManager GameManager;
 
     void Start()
     {
         anim = GetComponent<Animator>();
         rigi = GetComponent<Rigidbody2D>();
         rigi.gravityScale = 0; // evita "cair" se o jogo for top-down
+        PosicaoInicial = transform.position;
     }
 
     void Update()
@@ -29,7 +32,7 @@ public class Player : MonoBehaviour
         Vector2 movimento = new Vector2(moveX, moveY);
 
         // Atualiza a velocidade do Rigidbody2D
-        rigi.velocity = movimento * speed;
+        rigi.linearVelocity = movimento * speed;
 
         // Se estiver se movendo
         if (movimento.magnitude > 0)
@@ -62,5 +65,10 @@ public class Player : MonoBehaviour
         {
             isGround = false;
         }
+    }
+
+    public void RestartPosition()
+    {
+        transform.position = PosicaoInicial;
     }
 }
