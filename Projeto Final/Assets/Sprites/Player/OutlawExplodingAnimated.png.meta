@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OutlawExplodingAnimated_0: 5407061116601866873
+      OutlawExplodingAnimated_1: 953896575032401003
+      OutlawExplodingAnimated_10: 203311304595474702
+      OutlawExplodingAnimated_2: 9114695605685941828
+      OutlawExplodingAnimated_3: 950451409393926477
+      OutlawExplodingAnimated_4: 4311432482604433435
+      OutlawExplodingAnimated_5: 402409687621299049
+      OutlawExplodingAnimated_6: 9169754271229247448
+      OutlawExplodingAnimated_7: 5908461274965432425
+      OutlawExplodingAnimated_8: 5344265745622949494
+      OutlawExplodingAnimated_9: 7729903073685051095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

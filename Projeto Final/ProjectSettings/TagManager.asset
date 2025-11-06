@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Chao
+  - ground
+  - isGround
+  - enemie
   layers:
   - Default
   - TransparentFX

@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public float speed; //colocar velocidade no boneco
 
     public float jumpForce = 7f;
-    public bool isground; //verificar se ta no chão
+    public bool isground; //verificar se ta no chï¿½o
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,7 +18,6 @@ public class Player : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
@@ -52,7 +51,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Chao")
         {
             isground = true;
-            Debug.Log("esta no chão");
+            Debug.Log("esta no chï¿½o");
         }
     }
 }
