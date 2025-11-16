@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class BossAI : MonoBehaviour
 {
+    [Header("Configurações")]
     public float speed = 2.5f;
     public float detectionRange = 12f;
     public float attackRange = 2f;
     public int health = 10;
 
+    [Header("Referências")]
     public Transform player;
     public Animator animator;
-    public GameManager gameManager; // <- público agora
 
     private float lastAttackTime;
     public float attackCooldown = 1f;
@@ -21,9 +22,6 @@ public class BossAI : MonoBehaviour
 
         if (animator == null)
             animator = GetComponent<Animator>();
-
-        if (gameManager == null)
-            gameManager = FindObjectOfType<GameManager>();
     }
 
     void Update()
@@ -32,6 +30,7 @@ public class BossAI : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, player.position);
 
+        // Ataque
         if (distance <= attackRange)
         {
             animator.SetBool("isRunning", false);
@@ -43,6 +42,7 @@ public class BossAI : MonoBehaviour
                 lastAttackTime = Time.time;
             }
         }
+        // Persegue o player
         else if (distance <= detectionRange)
         {
             Vector3 dir = (player.position - transform.position).normalized;
@@ -51,6 +51,7 @@ public class BossAI : MonoBehaviour
             animator.SetBool("isRunning", true);
             animator.SetBool("isAttacking", false);
         }
+        // Parado
         else
         {
             animator.SetBool("isRunning", false);
@@ -60,21 +61,32 @@ public class BossAI : MonoBehaviour
 
     void AttackPlayer()
     {
-        Debug.Log("👹 Boss atacou o player!");
-        if (gameManager != null)
-            gameManager.LoseLife(1); // dá 1 de dano
+        PlayerMoviment playerScript = player.GetComponent<PlayerMoviment>();
+        if (playerScript != null)
+        {
+            playerScript.TakeDamage(1);
+        }
     }
 
     public void TakeDamage(int dmg)
     {
         health -= dmg;
-        Debug.Log($"Boss tomou {dmg} de dano. Vida restante: {health}");
-        if (health <= 0) Die();
+
+        if (health <= 0)
+            Die();
     }
 
     void Die()
     {
-        Debug.Log("💀 Boss morreu!");
-        Destroy(gameObject);
+        // Toca o som antes de destruir
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.Play("Coin");
+
+        // Caso você queira animação de morte:
+        if (animator != null)
+            animator.SetTrigger("Death");
+
+        // Destrói depois de um pequeno delay
+        Destroy(gameObject, 0.1f);
     }
 }

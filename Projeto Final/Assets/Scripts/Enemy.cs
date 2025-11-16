@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Enemy1 : MonoBehaviour, IDamageable
+public class Enemy1 : MonoBehaviour
 {
     [Header("Configurações do inimigo")]
     public int health = 3;
@@ -16,7 +16,7 @@ public class Enemy1 : MonoBehaviour, IDamageable
 
     void Update()
     {
-        // Movimento simples só pra exemplo
+        // Movimento simples só para exemplo
         rb.linearVelocity = new Vector2((moveRight ? 1 : -1) * moveSpeed, rb.linearVelocity.y);
     }
 
@@ -37,15 +37,23 @@ public class Enemy1 : MonoBehaviour, IDamageable
         Destroy(gameObject);
     }
 
-    // (Opcional) inverter direção se colidir com parede
-    void OnCollisionEnter2D(Collision2D collision)
+    // ===== CORREÇÃO AQUI =====
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.collider.CompareTag("Ground") || collision.collider.CompareTag("Obstacle"))
+        if (other.CompareTag("Player"))  // garante que só o Player recebe dano
         {
-            moveRight = !moveRight;
-            Vector3 scale = transform.localScale;
-            scale.x *= -1;
-            transform.localScale = scale;
+            // *** AQUI ESTÁ A CORREÇÃO PRINCIPAL ***
+            PlayerMoviment player = other.GetComponentInParent<PlayerMoviment>();
+
+            if (player != null)
+            {
+                Debug.Log("Jogador tomou dano!");
+                player.TakeDamage(1);
+            }
+            else
+            {
+                Debug.LogWarning("O Player foi detectado, mas o PlayerMoviment NÃO está no mesmo objeto!");
+            }
         }
     }
 }

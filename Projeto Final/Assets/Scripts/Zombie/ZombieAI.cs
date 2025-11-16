@@ -12,18 +12,44 @@ public class ZombieAI : MonoBehaviour
     private float lastAttackTime;
     public float attackCooldown = 1.5f;
 
+    private bool hasPlayedDetectSound = false;
+
     void Start()
     {
-        if (player == null) player = GameObject.FindGameObjectWithTag("Player")?.transform;
-        animator = GetComponent<Animator>();
+        // GARANTE QUE O PLAYER EXISTE
+        if (player == null)
+        {
+            GameObject p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+        }
+
+        // GARANTE QUE O ANIMATOR EXISTE
+        if (animator == null)
+            animator = GetComponent<Animator>();
     }
 
     void Update()
     {
+        // ⛔ SE O PLAYER NÃO EXISTE, O SCRIPT PARA E NÃO DÁ ERRO
         if (player == null) return;
 
         float distance = Vector2.Distance(transform.position, player.position);
 
+        // 🔊 Som de detecção (toca só uma vez)
+        if (distance <= detectionRange)
+        {
+            if (!hasPlayedDetectSound)
+            {
+                SafePlay("SomDeZombie");
+                hasPlayedDetectSound = true;
+            }
+        }
+        else
+        {
+            hasPlayedDetectSound = false;
+        }
+
+        // Movimentação / ataque
         if (distance > attackRange)
         {
             Vector3 dir = (player.position - transform.position).normalized;
@@ -48,6 +74,7 @@ public class ZombieAI : MonoBehaviour
     void Attack()
     {
         Debug.Log("Zombie atacou!");
+        SafePlay("SomDeZombie");
     }
 
     public void TakeDamage(int dmg)
@@ -60,6 +87,15 @@ public class ZombieAI : MonoBehaviour
     {
         GameManager gm = FindObjectOfType<GameManager>();
         if (gm != null) gm.AddPoints(10);
+
+        SafePlay("Coin");
         Destroy(gameObject);
+    }
+
+    // 🔒 ⛔ Método seguro para tocar sons sem dar NullReference
+    void SafePlay(string soundName)
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.Play(soundName);
     }
 }

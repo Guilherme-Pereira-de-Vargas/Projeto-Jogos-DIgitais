@@ -12,9 +12,5 @@ public class BossSpawner : MonoBehaviour
             Instantiate(bossPrefab, spawnPoint.position, Quaternion.identity);
             Debug.Log("⚔️ Boss Spawnado!");
         }
-        else
-        {
-            Debug.LogWarning("BossSpawner: Prefab ou SpawnPoint não configurados!");
-        }
     }
 }

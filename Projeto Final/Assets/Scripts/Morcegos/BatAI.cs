@@ -12,33 +12,69 @@ public class BatAI : MonoBehaviour
 
     private float lastAttackTime;
     public float attackCooldown = 1.2f;
+    private bool hasPlayedDetectSound = false;
 
-    void Start()
+    void Awake()
     {
-        if (player == null) player = GameObject.FindGameObjectWithTag("Player")?.transform;
-        animator = GetComponent<Animator>();
+        if (animator == null) animator = GetComponent<Animator>();
+        // Don't rely only on Start — tente já no Awake
+        if (player == null)
+        {
+            GameObject p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+        }
     }
 
     void Update()
     {
-        if (player == null) return;
-
-        float distance = Vector2.Distance(transform.position, player.position);
-
-        if (distance <= detectionRange)
+        // se player ainda null, tenta encontrar (útil se player é instanciado depois)
+        if (player == null)
         {
-            if (distance > attackRange)
+            GameObject p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null)
             {
-                Vector2 dir = (player.position - transform.position).normalized;
-                transform.position += (Vector3)(dir * speed * Time.deltaTime);
-
-                animator?.SetBool("isMoving", true);
-                animator?.SetBool("isAttacking", false);
+                player = p.transform;
+                Debug.Log($"[BatAI] Player found at runtime for bat '{name}'.");
             }
             else
             {
-                animator?.SetBool("isMoving", false);
-                animator?.SetBool("isAttacking", true);
+                // só pra evitar spam de logs: checa raramente
+                return;
+            }
+        }
+
+        float distance = Vector2.Distance(transform.position, player.position);
+
+        // debug rápido pra ver se o bat está detectando
+        // Debug.Log($"[BatAI] dist to player: {distance} (detectionRange {detectionRange})");
+
+        if (distance <= detectionRange)
+        {
+            if (!hasPlayedDetectSound)
+            {
+                SafePlay("SomDeMorcego");
+                hasPlayedDetectSound = true;
+            }
+
+            if (distance > attackRange)
+            {
+                Vector2 dir = (player.position - transform.position).normalized;
+                // movimento mais robusto usando Translate (pode ajustar se usar physics)
+                transform.position += (Vector3)(dir * speed * Time.deltaTime);
+
+                if (animator != null)
+                {
+                    animator.SetBool("isMoving", true);
+                    animator.SetBool("isAttacking", false);
+                }
+            }
+            else
+            {
+                if (animator != null)
+                {
+                    animator.SetBool("isMoving", false);
+                    animator.SetBool("isAttacking", true);
+                }
 
                 if (Time.time - lastAttackTime >= attackCooldown)
                 {
@@ -49,14 +85,19 @@ public class BatAI : MonoBehaviour
         }
         else
         {
-            animator?.SetBool("isMoving", false);
-            animator?.SetBool("isAttacking", false);
+            if (animator != null)
+            {
+                animator.SetBool("isMoving", false);
+                animator.SetBool("isAttacking", false);
+            }
+            hasPlayedDetectSound = false;
         }
     }
 
     void Attack()
     {
-        Debug.Log("Morcego atacou!");
+        Debug.Log($"[BatAI] {name} atacou o player!");
+        SafePlay("SomDeMorcego");
     }
 
     public void TakeDamage(int dmg)
@@ -69,6 +110,14 @@ public class BatAI : MonoBehaviour
     {
         GameManager gm = FindObjectOfType<GameManager>();
         if (gm != null) gm.AddPoints(pointsOnDeath);
+
+        SafePlay("Coin");
         Destroy(gameObject);
+    }
+
+    void SafePlay(string soundName)
+    {
+        if (AudioManager.Instance != null && AudioManager.Instance.Exists(soundName))
+            AudioManager.Instance.Play(soundName);
     }
 }
