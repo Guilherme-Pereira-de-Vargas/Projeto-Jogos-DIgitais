@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x16 Heart Health Blue Horizontal_0: -6840163148796507796
+      16x16 Heart Health Blue Horizontal_1: -615855046275432599
+      16x16 Heart Health Blue Horizontal_2: 8737045256841497142
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

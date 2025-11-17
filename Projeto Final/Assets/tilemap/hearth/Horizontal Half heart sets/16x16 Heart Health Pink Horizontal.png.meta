@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x16 Heart Health Pink Horizontal_0: -6373476355584453638
+      16x16 Heart Health Pink Horizontal_1: 9102794560911980078
+      16x16 Heart Health Pink Horizontal_2: 5686066917104713587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

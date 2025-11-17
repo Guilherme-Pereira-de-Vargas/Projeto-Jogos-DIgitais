@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: d4f1771c9dfb91945bd396b9b4f217de
+guid: 57ddcef35aa520a4ca6526c228df45c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3753525917586297645
-    second: 16x16 Heart Health Black Horizontal_0
-  - first:
-      213: 7971922617794996383
-    second: 16x16 Heart Health Black Horizontal_1
-  - first:
-      213: 8912097286832748117
-    second: 16x16 Heart Health Black Horizontal_2
+      213: -6445968214711951256
+    second: butresume_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 16x16 Heart Health Black Horizontal_0
+      name: butresume_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 15
-        height: 13
+        x: 147
+        y: 131
+        width: 344
+        height: 344
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2314fc5fe3371430800000000000000
-      internalID: 3753525917586297645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Heart Health Black Horizontal_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 2
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f98a2924265f1ae60800000000000000
-      internalID: 7971922617794996383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 16x16 Heart Health Black Horizontal_2
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 2
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 556736993412eab70800000000000000
-      internalID: 8912097286832748117
+      spriteID: 860a2a89f025b86a0800000000000000
+      internalID: -6445968214711951256
       vertices: []
       indices: 
       edges: []
@@ -184,10 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      16x16 Heart Health Black Horizontal_0: 3753525917586297645
-      16x16 Heart Health Black Horizontal_1: 7971922617794996383
-      16x16 Heart Health Black Horizontal_2: 8912097286832748117
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
