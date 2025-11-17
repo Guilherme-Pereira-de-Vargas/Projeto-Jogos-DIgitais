@@ -123,6 +123,10 @@ public class PlayerMoviment : MonoBehaviour
     public void TakeDamage(int dmg)
     {
         lives -= dmg;
+
+        // 🔊 SOM DE DANO DO PLAYER ADICIONADO AQUI
+        SafePlay("player_damage");
+
         GameManager.Instance.PlayerTookDamage();
 
         if (lives <= 0)
