@@ -23,7 +23,7 @@ public class ZombieSpawner : MonoBehaviour
             return;
 
         Vector2 randPos;
-        // Garante que o ponto esteja entre min e max distância
+        
         do
         {
             randPos = Random.insideUnitCircle * spawnRadius;

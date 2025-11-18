@@ -51,9 +51,9 @@ public class PlayerMoviment : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        // ========= FIX REAL =========
+        
         rb.linearVelocity = new Vector2(horizontalInput * velocidade, verticalInput * velocidade);
-        // ============================
+        
 
         if (horizontalInput > 0)
             facingRight = true;
@@ -107,9 +107,9 @@ public class PlayerMoviment : MonoBehaviour
 
             if (rbBullet != null)
             {
-                // ==== FIX REAL ====
+                
                 rbBullet.linearVelocity = new Vector2(dir * bulletSpeed, 0f);
-                // ===================
+                
             }
 
             Vector3 scale = bullet.transform.localScale;
@@ -124,7 +124,7 @@ public class PlayerMoviment : MonoBehaviour
     {
         lives -= dmg;
 
-        // 🔊 SOM DE DANO DO PLAYER ADICIONADO AQUI
+        
         SafePlay("player_damage");
 
         GameManager.Instance.PlayerTookDamage();

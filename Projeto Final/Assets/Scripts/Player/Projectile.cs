@@ -39,7 +39,7 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Zumbi
+       
         ZombieAI zombie = other.GetComponent<ZombieAI>();
         if (zombie != null)
         {
@@ -48,7 +48,7 @@ public class Projectile : MonoBehaviour
             return;
         }
 
-        // Morcego
+        
         BatAI bat = other.GetComponent<BatAI>();
         if (bat != null)
         {
@@ -57,7 +57,7 @@ public class Projectile : MonoBehaviour
             return;
         }
 
-        // Boss
+        
         BossAI boss = other.GetComponent<BossAI>();
         if (boss != null)
         {

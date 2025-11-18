@@ -16,26 +16,26 @@ public class ZombieAI : MonoBehaviour
 
     void Start()
     {
-        // GARANTE QUE O PLAYER EXISTE
+        
         if (player == null)
         {
             GameObject p = GameObject.FindGameObjectWithTag("Player");
             if (p != null) player = p.transform;
         }
 
-        // GARANTE QUE O ANIMATOR EXISTE
+        
         if (animator == null)
             animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // ⛔ SE O PLAYER NÃO EXISTE, O SCRIPT PARA E NÃO DÁ ERRO
+     
         if (player == null) return;
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // 🔊 Som de detecção (toca só uma vez)
+        
         if (distance <= detectionRange)
         {
             if (!hasPlayedDetectSound)
@@ -49,7 +49,7 @@ public class ZombieAI : MonoBehaviour
             hasPlayedDetectSound = false;
         }
 
-        // Movimentação / ataque
+  
         if (distance > attackRange)
         {
             Vector3 dir = (player.position - transform.position).normalized;
@@ -77,12 +77,12 @@ public class ZombieAI : MonoBehaviour
 
         SafePlay("SomDeZombie");
 
-        // === CAUSAR DANO DE VERDADE ===
+     
         GameManager gm = GameManager.Instance;
 
         if (gm != null)
         {
-            gm.LoseLife(1);          // tira 1 de vida do jogador
+            gm.LoseLife(1);          
             Debug.Log("Zumbi causou dano ao player!");
         }
         else
@@ -106,7 +106,7 @@ public class ZombieAI : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // 🔒 ⛔ Método seguro para tocar sons sem dar NullReference
+    
     void SafePlay(string soundName)
     {
         if (AudioManager.Instance != null)

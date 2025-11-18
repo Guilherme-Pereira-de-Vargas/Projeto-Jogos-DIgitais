@@ -1,10 +1,10 @@
 using UnityEngine;
-using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool isMuted = false;
+
     public void StartGame()
     {
         SceneManager.LoadScene(1);
@@ -22,20 +22,30 @@ public class Menu : MonoBehaviour
         go.SetActive(true);
     }
 
-    public void DisableConfig(GameObject go) 
-    { 
-        go.SetActive(false); 
+    public void DisableConfig(GameObject go)
+    {
+        go.SetActive(false);
     }
 
     public void ActivePause(GameObject go)
-    { 
+    {
         go.SetActive(true);
         Time.timeScale = 0;
     }
+
     public void DisablePause(GameObject go)
     {
         go.SetActive(false);
         Time.timeScale = 1;
     }
 
+    
+    public void ToggleSound()
+    {
+        isMuted = !isMuted;
+
+        AudioListener.volume = isMuted ? 0 : 1;
+
+        Debug.Log("Sound = " + (isMuted ? "OFF" : "ON"));
+    }
 }

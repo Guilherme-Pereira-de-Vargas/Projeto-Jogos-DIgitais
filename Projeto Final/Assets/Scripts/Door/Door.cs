@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Rendering.Universal; // Necessário para usar Light2D
+using UnityEngine.Rendering.Universal;
 
 public class Door : MonoBehaviour
 {
@@ -20,7 +20,7 @@ public class Door : MonoBehaviour
     {
         Debug.Log("Start da porta rodou!");
 
-        // GARANTE 200% QUE A LUZ COMEÇA APAGADA
+        
         if (doorLight != null)
         {
             doorLight.enabled = false;
@@ -48,10 +48,10 @@ public class Door : MonoBehaviour
             Debug.Log("✨ Porta desbloqueada! Vá até ela.");
         }
 
-        // Só funciona se o player estiver perto
+        
         if (!playerNear) return;
 
-        // Pressionou E e já está desbloqueada
+        
         if (Input.GetKeyDown(KeyCode.E) && unlocked)
         {
             Debug.Log("🌟 Entrando na próxima fase...");

@@ -16,7 +16,7 @@ public class Enemy1 : MonoBehaviour
 
     void Update()
     {
-        // Movimento simples
+        
         rb.linearVelocity = new Vector2((moveRight ? 1 : -1) * moveSpeed, rb.linearVelocity.y);
     }
 
@@ -37,26 +37,24 @@ public class Enemy1 : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // =============================
-    //      SISTEMA DE DANO
-    // =============================
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player"))
             return;
 
-        // 1) Primeiro tenta pegar direto no objeto atingido
+        
         PlayerMoviment player = other.GetComponent<PlayerMoviment>();
 
-        // 2) Se não estiver no mesmo objeto, tenta nos pais
+        
         if (player == null)
             player = other.GetComponentInParent<PlayerMoviment>();
 
-        // 3) Se ainda não encontrou, tenta nos filhos (por segurança)
+        
         if (player == null)
             player = other.GetComponentInChildren<PlayerMoviment>();
 
-        // 4) Agora aplica dano de forma segura
+        
         if (player != null)
         {
             Debug.Log("Jogador tomou dano pelo Enemy1!");
@@ -64,7 +62,7 @@ public class Enemy1 : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("⚠ Enemy1 detectou Player, mas NÃO encontrou PlayerMoviment em nenhum lugar!");
+            Debug.LogWarning("Enemy1 detectou Player, mas NÃO encontrou PlayerMoviment em nenhum lugar!");
         }
     }
 }

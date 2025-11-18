@@ -3,25 +3,25 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour
 {
     [Header("Referências")]
-    public GameObject bulletPrefab;   // Arrasta o prefab da Bullet aqui
-    public Transform firePointRight;       // Posição da arma ou da frente do Player
-    public Transform firePointLeft;        // Posição da arma para o lado esquerdo do player
+    public GameObject bulletPrefab;   
+    public Transform firePointRight;       
+    public Transform firePointLeft;        
 
     [Header("Configurações do Tiro")]
     public float bulletSpeed = 10f;
-    public float fireRate = 0.3f;     // tempo entre tiros
+    public float fireRate = 0.3f;     
 
     private float nextFireTime = 0f;
     private PlayerMoviment player;
 
     void Start()
     {
-        player = GetComponent<PlayerMoviment>(); // Pega o script do PlayerMoviment
+        player = GetComponent<PlayerMoviment>(); 
     }
 
     void Update()
     {
-        // Atira quando apertar F ou clicar com o mouse
+        
         if (Time.time >= nextFireTime && (Input.GetKey(KeyCode.F) || Input.GetMouseButton(0)))
         {
             Shoot();
