@@ -18,11 +18,12 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI textPontos;
 
     [Header("Configurações de Boss")]
-    public int nextBossScore = 100;   // boss nasce no 100, 200, 300...
+    public int nextBossScore = 100;
     public GameObject bossPrefab;
     public Transform bossSpawnPoint;
 
     private int score = 0;
+    private bool uiInitialized = false;
 
     private void Awake()
     {
@@ -32,14 +33,19 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        Invoke(nameof(InitializeUI), 0.05f); // garante que a UI exista
+    }
+
+    private void InitializeUI()
+    {
         if (player == null)
             player = FindObjectOfType<PlayerMoviment>();
 
-        UpdateHeartsUI();  // Atualiza a UI de corações com o valor inicial
-        UpdateScoreUI();   // Atualiza a UI de pontos
+        uiInitialized = true;
+        UpdateHeartsUI();
+        UpdateScoreUI();
     }
 
-    // ======= PONTOS =======
     public void AddPoints(int amount)
     {
         AddScore(amount);
@@ -52,7 +58,6 @@ public class GameManager : MonoBehaviour
 
         UpdateScoreUI();
 
-        // Spawnar Boss a cada 100 pontos
         if (score >= nextBossScore)
         {
             SpawnBoss();
@@ -62,53 +67,52 @@ public class GameManager : MonoBehaviour
 
     private void UpdateScoreUI()
     {
-        if (textPontos != null)
-            textPontos.text = "Pontos: " + score;
+        if (!uiInitialized) return;
+        if (textPontos == null) return;
+
+        textPontos.text = "Pontos: " + score;
     }
 
-    // ======= VIDA =======
     public void LoseLife(int qtd)
     {
-        if (player == null)
-        {
-            player = FindObjectOfType<PlayerMoviment>();
-            if (player == null) return;
-        }
+        if (player == null) return;
 
-        player.TakeDamage(qtd);  // Chama o método TakeDamage no PlayerMoviment
-        UpdateHeartsUI();        // Atualiza a UI de corações
+        player.TakeDamage(qtd);
+        UpdateHeartsUI();
     }
 
-    // Atualiza a UI de corações quando o jogador toma dano
     public void PlayerTookDamage()
     {
-        UpdateHeartsUI();  // Atualiza a UI de corações
+        UpdateHeartsUI();
     }
 
-    // Atualiza os corações na UI
     public void UpdateHeartsUI()
     {
+        if (!uiInitialized) return; // ← NUNCA MAIS QUEBRA POR ISSO
+
         if (player == null) return;
         if (hearts == null || hearts.Length == 0) return;
+        if (fullHeart == null || emptyHeart == null) return;
 
-        int lives = player.GetLives();  // Pega as vidas do jogador
+        int lives = player.GetLives();
 
         for (int i = 0; i < hearts.Length; i++)
         {
-            if (i < lives)
-                hearts[i].sprite = fullHeart;  // Coragem cheia
-            else
-                hearts[i].sprite = emptyHeart;  // Coragem vazia
+            if (i < lives) hearts[i].sprite = fullHeart;
+            else hearts[i].sprite = emptyHeart;
         }
     }
 
-    // ======= SPAWN DO BOSS =======
     private void SpawnBoss()
     {
         if (bossPrefab != null && bossSpawnPoint != null)
         {
             Instantiate(bossPrefab, bossSpawnPoint.position, Quaternion.identity);
             Debug.Log($"👹 Boss Spawnado aos {score} pontos!");
+        }
+        else
+        {
+            Debug.LogWarning("GameManager: Não consegui spawnar o Boss.");
         }
     }
 

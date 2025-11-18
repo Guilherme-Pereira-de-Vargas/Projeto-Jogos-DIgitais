@@ -14,10 +14,16 @@ public class BatAI : MonoBehaviour
     public float attackCooldown = 1.2f;
     private bool hasPlayedDetectSound = false;
 
+    // Dano causado ao player
+    public int damageToPlayer = 1;
+
+    // Referência fixa ao script do player
+    private PlayerMoviment playerScript;
+
     void Awake()
     {
         if (animator == null) animator = GetComponent<Animator>();
-        // Don't rely only on Start — tente já no Awake
+
         if (player == null)
         {
             GameObject p = GameObject.FindGameObjectWithTag("Player");
@@ -25,28 +31,28 @@ public class BatAI : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        // pega o script aqui pra garantir que não fica null
+        if (player != null)
+            playerScript = player.GetComponent<PlayerMoviment>();
+    }
+
     void Update()
     {
-        // se player ainda null, tenta encontrar (útil se player é instanciado depois)
         if (player == null)
         {
             GameObject p = GameObject.FindGameObjectWithTag("Player");
             if (p != null)
             {
                 player = p.transform;
+                playerScript = player.GetComponent<PlayerMoviment>();
                 Debug.Log($"[BatAI] Player found at runtime for bat '{name}'.");
             }
-            else
-            {
-                // só pra evitar spam de logs: checa raramente
-                return;
-            }
+            else return;
         }
 
         float distance = Vector2.Distance(transform.position, player.position);
-
-        // debug rápido pra ver se o bat está detectando
-        // Debug.Log($"[BatAI] dist to player: {distance} (detectionRange {detectionRange})");
 
         if (distance <= detectionRange)
         {
@@ -59,7 +65,6 @@ public class BatAI : MonoBehaviour
             if (distance > attackRange)
             {
                 Vector2 dir = (player.position - transform.position).normalized;
-                // movimento mais robusto usando Translate (pode ajustar se usar physics)
                 transform.position += (Vector3)(dir * speed * Time.deltaTime);
 
                 if (animator != null)
@@ -90,6 +95,7 @@ public class BatAI : MonoBehaviour
                 animator.SetBool("isMoving", false);
                 animator.SetBool("isAttacking", false);
             }
+
             hasPlayedDetectSound = false;
         }
     }
@@ -98,6 +104,16 @@ public class BatAI : MonoBehaviour
     {
         Debug.Log($"[BatAI] {name} atacou o player!");
         SafePlay("SomDeMorcego");
+
+        // aplica dano ao player
+        if (playerScript != null)
+        {
+            playerScript.TakeDamage(damageToPlayer);
+        }
+        else
+        {
+            Debug.LogWarning("[BatAI] playerScript está NULL — dano ignorado.");
+        }
     }
 
     public void TakeDamage(int dmg)

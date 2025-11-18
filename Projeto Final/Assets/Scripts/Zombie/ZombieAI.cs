@@ -74,7 +74,21 @@ public class ZombieAI : MonoBehaviour
     void Attack()
     {
         Debug.Log("Zombie atacou!");
+
         SafePlay("SomDeZombie");
+
+        // === CAUSAR DANO DE VERDADE ===
+        GameManager gm = GameManager.Instance;
+
+        if (gm != null)
+        {
+            gm.LoseLife(1);          // tira 1 de vida do jogador
+            Debug.Log("Zumbi causou dano ao player!");
+        }
+        else
+        {
+            Debug.LogWarning("GameManager não encontrado — player não levou dano!");
+        }
     }
 
     public void TakeDamage(int dmg)
