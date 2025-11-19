@@ -48,7 +48,7 @@ public class AudioManager : MonoBehaviour
             s.source.Play();
     }
 
-    // parar som
+    // parar som específico
     public void Stop(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
@@ -65,9 +65,17 @@ public class AudioManager : MonoBehaviour
     // tocar música (para todas antes)
     public void PlayMusic(string name)
     {
-        foreach (Sound s in sounds)
-            s.source.Stop();
-
+        StopAll();
         Play(name);
+    }
+
+    // ⛔ PARA TUDO — sons e músicas
+    public void StopAll()
+    {
+        foreach (Sound s in sounds)
+        {
+            if (s.source.isPlaying)
+                s.source.Stop();
+        }
     }
 }

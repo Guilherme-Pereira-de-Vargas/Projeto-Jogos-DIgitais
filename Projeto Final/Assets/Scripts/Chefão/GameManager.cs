@@ -21,9 +21,18 @@ public class GameManager : MonoBehaviour
     public int nextBossScore = 100;
     public GameObject bossPrefab;
     public Transform bossSpawnPoint;
+    private bool bossSpawned = false;
+
+    [Header("Sistema de Vitória")]
+    public GameObject victoryPanel;
+    public TextMeshProUGUI victoryText;
+    public AudioSource audioSource;
+    public AudioClip victoryMusic;
+    public int scoreToWin = 400;
 
     private int score = 0;
     private bool uiInitialized = false;
+    private bool hasWon = false;
 
     private void Awake()
     {
@@ -33,7 +42,10 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Invoke(nameof(InitializeUI), 0.05f); // garante que a UI exista
+        Invoke(nameof(InitializeUI), 0.05f);
+
+        if (victoryPanel != null)
+            victoryPanel.SetActive(false);
     }
 
     private void InitializeUI()
@@ -46,6 +58,9 @@ public class GameManager : MonoBehaviour
         UpdateScoreUI();
     }
 
+    // ---------------------------
+    //        SCORE
+    // ---------------------------
     public void AddPoints(int amount)
     {
         AddScore(amount);
@@ -53,26 +68,37 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int amount)
     {
+        if (hasWon) return;
+
         score += amount;
         if (score < 0) score = 0;
 
         UpdateScoreUI();
 
-        if (score >= nextBossScore)
+        // spawn de boss corrigido
+        if (score >= nextBossScore && !bossSpawned)
         {
+            bossSpawned = true;
             SpawnBoss();
             nextBossScore += 100;
+        }
+
+        if (score >= scoreToWin)
+        {
+            WinGame();
         }
     }
 
     private void UpdateScoreUI()
     {
-        if (!uiInitialized) return;
-        if (textPontos == null) return;
+        if (!uiInitialized || textPontos == null) return;
 
         textPontos.text = "Pontos: " + score;
     }
 
+    // ---------------------------
+    //        VIDAS
+    // ---------------------------
     public void LoseLife(int qtd)
     {
         if (player == null) return;
@@ -88,32 +114,67 @@ public class GameManager : MonoBehaviour
 
     public void UpdateHeartsUI()
     {
-        if (!uiInitialized) return; // ← NUNCA MAIS QUEBRA POR ISSO
-
-        if (player == null) return;
-        if (hearts == null || hearts.Length == 0) return;
+        if (!uiInitialized) return;
+        if (player == null || hearts == null || hearts.Length == 0) return;
         if (fullHeart == null || emptyHeart == null) return;
 
         int lives = player.GetLives();
 
         for (int i = 0; i < hearts.Length; i++)
         {
-            if (i < lives) hearts[i].sprite = fullHeart;
-            else hearts[i].sprite = emptyHeart;
+            hearts[i].sprite = (i < lives) ? fullHeart : emptyHeart;
         }
     }
 
+    // ---------------------------
+    //        SPAWN DE BOSS
+    // ---------------------------
     private void SpawnBoss()
     {
         if (bossPrefab != null && bossSpawnPoint != null)
         {
             Instantiate(bossPrefab, bossSpawnPoint.position, Quaternion.identity);
             Debug.Log($"👹 Boss Spawnado aos {score} pontos!");
+
+            // permite novo spawn no futuro
+            Invoke(nameof(ResetBossSpawn), 1f);
         }
         else
         {
             Debug.LogWarning("GameManager: Não consegui spawnar o Boss.");
         }
+    }
+
+    private void ResetBossSpawn()
+    {
+        bossSpawned = false;
+    }
+
+    // ---------------------------
+    //        VITÓRIA
+    // ---------------------------
+    private void WinGame()
+    {
+        if (hasWon) return;
+        hasWon = true;
+
+        Debug.Log("🎉 O jogador venceu o jogo!");
+
+        if (victoryPanel != null)
+        {
+            victoryPanel.SetActive(true);
+
+            if (victoryText != null)
+                victoryText.text = "VOCÊ VENCEU!";
+        }
+
+        if (audioSource != null && victoryMusic != null)
+        {
+            audioSource.clip = victoryMusic;
+            audioSource.Play();
+        }
+
+        Time.timeScale = 1f;
     }
 
     public int GetScore() => score;
